@@ -57,20 +57,21 @@ All this is good for local runs, but the purpose of containers are to run anywhe
 For pushing, in other words, for storing container images require authentication credentials.  Use the following instructions to get one.   
 
 Go to Dockerhub website, under Profile, Security, create 'Access Token' and provide write access. 
-
-docker login -u sarveshsridher (use your own account name here) 
+```
+docker login -u sarveshsridher (use your own account name here)
+```
 use token password
-
+```
 docker push sarveshsridher/sampleapp:v1
-
+```
 This results in container image pushed to Docker hub (central repo that can be used from anywhere in the world to pull images)
 
 ### Docker run
 
 You can run this following command anywhere in the world where docker runtime is installed. Most importantly, you don't need to ask your server owner or anyone to install python or flask, etc.   
-
+```
 docker run -p 5000:5000 sarveshsridher/sampleapp:v1
-
+```
 
 ##  References 
 

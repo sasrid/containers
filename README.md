@@ -60,6 +60,8 @@ Go to Dockerhub website, under Profile, Security, create 'Access Token' and prov
 ```
 docker login -u sarveshsridher (use your own account name here)
 ```
+A display will pop up informing you to type in the password: this is wher you will use your access token.
+
 use token password
 ```
 docker push sarveshsridher/sampleapp:v1

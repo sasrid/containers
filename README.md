@@ -10,7 +10,7 @@
 
 ## Intro 
 
-This repo has a simple python application that uses Flask framework. Generally, to run this python program, you need to have Python and Flask installed. It's impossible or more problematic when you need to run this on a different laptop or server.  You need to work with the owner of the laptop or owner to install these dependencies before running the program.  This is where container images are helpful.  This documentation explains the process of creating a container image and also methods to run them. 
+This repo has a simple python application that uses Flask framework. Generally, to run this python program, you need to have Python and Flask installed. It's a bit problematic when you need to run this on a different laptop or server.  You need to work with the owner of the laptop or owner to install these dependencies before running the program.  This is where container images are helpful.  This documentation explains the process of creating a container image and also methods to run them. 
 
 ## Creating a Container image  
 

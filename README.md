@@ -70,7 +70,7 @@ This results in container image pushed to Docker hub (central repo that can be u
 
 ### Docker run
 
-You can run this following command anywhere in the world where docker runtime is installed. Most importantly, you don't need to ask your server owner or anyone to install python or flask, etc.   
+You can run this following command anywhere in the world where docker runtime is installed. Most importantly, you don't need to ask your server owner or anyone to install python or flask, etc. This container image everything (incl. dependencies) needed to run this app.
 ```
 docker run -p 5000:5000 sarveshsridher/sampleapp:v1
 ```
